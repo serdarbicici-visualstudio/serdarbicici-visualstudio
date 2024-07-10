@@ -4,3 +4,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=serdarbicici-visualstudio&layout=compact)
 
+![Serdar's GitHub stats](https://github-readme-stats.vercel.app/api?username=serdarbicici-visualstudio&show_icons=true&theme=transparent)
