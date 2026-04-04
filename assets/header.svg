@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0d47a1"/>
+      <stop offset="40%"  stop-color="#1976d2"/>
+      <stop offset="80%"  stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#90caf9"/>
+    </linearGradient>
+    <linearGradient id="hillGrad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#66bb6a"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="hillGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#81c784"/>
+      <stop offset="100%" stop-color="#2e7d32"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#fff9c4"/>
+      <stop offset="40%"  stop-color="#ffee58" stop-opacity="0.7"/>
+      <stop offset="75%"  stop-color="#ffd600" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffd600" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleBarGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#5aa3e8"/>
+      <stop offset="50%"  stop-color="#2460b5"/>
+      <stop offset="100%" stop-color="#0d3785"/>
+    </linearGradient>
+    <linearGradient id="winBodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#daeeff" stop-opacity="0.84"/>
+      <stop offset="100%" stop-color="#aed4f8" stop-opacity="0.68"/>
+    </linearGradient>
+    <linearGradient id="closeBtnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#f07070"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <linearGradient id="minmaxBtnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#78b8e8"/>
+      <stop offset="100%" stop-color="#3878b8"/>
+    </linearGradient>
+    <linearGradient id="taskbarGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2060d8"/>
+      <stop offset="100%" stop-color="#0a3a9a"/>
+    </linearGradient>
+    <linearGradient id="startBtnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#5a9ae0"/>
+      <stop offset="100%" stop-color="#2e6abf"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== SKY ===== -->
+  <rect width="800" height="360" fill="url(#skyGrad)"/>
+
+  <!-- ===== SUN ===== -->
+  <circle cx="715" cy="65" r="95" fill="url(#sunGlow)"/>
+  <circle cx="715" cy="65" r="38" fill="#fff59d" opacity="0.75"/>
+  <circle cx="715" cy="65" r="22" fill="#ffee58" opacity="0.90"/>
+  <circle cx="715" cy="65" r="13" fill="#fdd835"/>
+
+  <!-- ===== CLOUDS ===== -->
+  <!-- Cloud A — large, left -->
+  <g opacity="0.94">
+    <ellipse cx="145" cy="82"  rx="88" ry="34" fill="white"/>
+    <ellipse cx="185" cy="60"  rx="66" ry="39" fill="white"/>
+    <ellipse cx="112" cy="76"  rx="54" ry="29" fill="white"/>
+    <ellipse cx="160" cy="56"  rx="47" ry="28" fill="white"/>
+    <ellipse cx="145" cy="100" rx="85" ry="15" fill="#d0e8f5" opacity="0.40"/>
+  </g>
+  <!-- Cloud B — medium, centre-left -->
+  <g opacity="0.86">
+    <ellipse cx="390" cy="62" rx="66" ry="26" fill="white"/>
+    <ellipse cx="424" cy="46" rx="52" ry="30" fill="white"/>
+    <ellipse cx="360" cy="57" rx="43" ry="23" fill="white"/>
+    <ellipse cx="400" cy="43" rx="41" ry="24" fill="white"/>
+    <ellipse cx="390" cy="78" rx="63" ry="13" fill="#d0e8f5" opacity="0.35"/>
+  </g>
+  <!-- Cloud C — small, right of centre -->
+  <g opacity="0.76">
+    <ellipse cx="600" cy="108" rx="48" ry="20" fill="white"/>
+    <ellipse cx="627" cy="95"  rx="36" ry="22" fill="white"/>
+    <ellipse cx="580" cy="104" rx="31" ry="17" fill="white"/>
+  </g>
+  <!-- Cloud D — tiny, upper left -->
+  <g opacity="0.60">
+    <ellipse cx="52" cy="50" rx="33" ry="14" fill="white"/>
+    <ellipse cx="70" cy="40" rx="26" ry="15" fill="white"/>
+  </g>
+
+  <!-- ===== HILLS — XP Bliss layered depth ===== -->
+  <ellipse cx="400" cy="490" rx="750" ry="285" fill="#a5d6a7" opacity="0.45"/>
+  <ellipse cx="-20"  cy="430" rx="430" ry="200" fill="#76c442" opacity="0.62"/>
+  <ellipse cx="820"  cy="420" rx="370" ry="180" fill="#76c442" opacity="0.62"/>
+  <ellipse cx="400"  cy="525" rx="700" ry="265" fill="url(#hillGrad1)"/>
+  <ellipse cx="60"   cy="475" rx="310" ry="150" fill="url(#hillGrad2)"/>
+
+  <!-- ===== XP WINDOW ===== -->
+  <!-- Shadow -->
+  <rect x="163" y="93" width="480" height="194" rx="6" fill="black" opacity="0.22"/>
+  <!-- Outer frame -->
+  <rect x="159" y="89" width="480" height="192" rx="6" fill="#1e5cbc" stroke="#0a3585" stroke-width="2"/>
+  <!-- Body (glass) -->
+  <rect x="161" y="119" width="476" height="160" fill="url(#winBodyGrad)"/>
+
+  <!-- Title bar -->
+  <rect x="159" y="89"  width="480" height="32" rx="6" fill="url(#titleBarGrad)"/>
+  <rect x="159" y="107" width="480" height="14"        fill="url(#titleBarGrad)"/>
+  <!-- Title bar gloss -->
+  <rect x="161" y="90"  width="476" height="13" rx="4" fill="rgba(255,255,255,0.28)"/>
+  <!-- Title text -->
+  <text x="176" y="109" font-family="Tahoma,Verdana,Arial,sans-serif" font-size="12" font-weight="bold" fill="white">
+    Serdar Bicici &#8212; GitHub Profile
+  </text>
+
+  <!-- Buttons: Minimize -->
+  <rect x="559" y="93" width="22" height="19" rx="2" fill="url(#minmaxBtnGrad)" stroke="#1e5cbc" stroke-width="0.5"/>
+  <rect x="560" y="94" width="20" height="8"  rx="2" fill="rgba(255,255,255,0.25)"/>
+  <line x1="563" y1="105" x2="577" y2="105" stroke="white" stroke-width="2"/>
+  <!-- Maximize -->
+  <rect x="583" y="93" width="22" height="19" rx="2" fill="url(#minmaxBtnGrad)" stroke="#1e5cbc" stroke-width="0.5"/>
+  <rect x="584" y="94" width="20" height="8"  rx="2" fill="rgba(255,255,255,0.25)"/>
+  <rect x="587" y="97" width="13" height="11" rx="1" fill="none" stroke="white" stroke-width="1.5"/>
+  <!-- Close -->
+  <rect x="607" y="93" width="22" height="19" rx="2" fill="url(#closeBtnGrad)" stroke="#8b0000" stroke-width="0.5"/>
+  <rect x="608" y="94" width="20" height="8"  rx="2" fill="rgba(255,255,255,0.20)"/>
+  <line x1="611" y1="97" x2="625" y2="108" stroke="white" stroke-width="2"/>
+  <line x1="625" y1="97" x2="611" y2="108" stroke="white" stroke-width="2"/>
+
+  <!-- Separator below title bar -->
+  <line x1="159" y1="121" x2="639" y2="121" stroke="#0a3585" stroke-width="1.5"/>
+  <!-- Upper gloss on body -->
+  <rect x="161" y="121" width="476" height="52" fill="rgba(255,255,255,0.18)"/>
+
+  <!-- CONTENT -->
+  <!-- Main greeting -->
+  <text x="399" y="162" font-family="Tahoma,Verdana,Arial,sans-serif" font-size="26" font-weight="bold" fill="#062060" text-anchor="middle">
+    Hi! I'm Serdar Bicici
+  </text>
+  <!-- Divider -->
+  <line x1="196" y1="176" x2="602" y2="176" stroke="#5a9ad8" stroke-width="0.8" opacity="0.65"/>
+  <!-- Subtitle -->
+  <text x="399" y="198" font-family="Tahoma,Verdana,Arial,sans-serif" font-size="13" fill="#0a3070" text-anchor="middle">
+    AI &amp; Data Engineering Student @ Istanbul Technical University
+  </text>
+  <!-- Tags -->
+  <text x="399" y="224" font-family="Tahoma,Verdana,Arial,sans-serif" font-size="12" fill="#1a4a90" text-anchor="middle">
+    Machine Learning  &#183;  Computer Vision  &#183;  Data Science  &#183;  Deep Learning
+  </text>
+  <!-- Tagline -->
+  <text x="399" y="252" font-family="Tahoma,Verdana,Arial,sans-serif" font-size="11" fill="#2a5aaa" text-anchor="middle" font-style="italic">
+    &#8220;Building intelligent systems and exploring the frontiers of AI&#8221;
+  </text>
+
+  <!-- Status bar -->
+  <rect x="161" y="267" width="476" height="12" fill="rgba(90,154,216,0.30)" stroke="#5a9ad8" stroke-width="0.5"/>
+  <text x="167" y="277" font-family="Tahoma,sans-serif" font-size="8" fill="#0a3070">Ready</text>
+  <rect x="583" y="268" width="52"  height="10" fill="rgba(90,154,216,0.20)"/>
+  <text x="609" y="277" font-family="Tahoma,sans-serif" font-size="8" fill="#0a3070" text-anchor="middle">Online &#9679;</text>
+
+  <!-- ===== XP TASKBAR ===== -->
+  <rect x="0" y="338" width="800" height="22" fill="url(#taskbarGrad)"/>
+  <rect x="0" y="338" width="800" height="4"  fill="rgba(255,255,255,0.20)"/>
+  <!-- Start button -->
+  <rect x="2" y="340" width="68" height="16" rx="8" fill="url(#startBtnGrad)"/>
+  <rect x="2" y="340" width="68" height="8"  rx="8" fill="rgba(255,255,255,0.28)"/>
+  <text x="36" y="352" font-family="Tahoma,Verdana,sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">&#8862; start</text>
+  <line x1="74"  y1="341" x2="74"  y2="358" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <!-- Active task -->
+  <rect x="77" y="341" width="168" height="16" rx="2" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.28)" stroke-width="0.5"/>
+  <text x="161" y="352" font-family="Tahoma,sans-serif" font-size="8" fill="white" text-anchor="middle">Serdar Bicici &#8212; GitHub Profile</text>
+  <line x1="720" y1="341" x2="720" y2="358" stroke="rgba(255,255,255,0.20)" stroke-width="1"/>
+  <!-- System tray -->
+  <rect x="722" y="340" width="76" height="16" fill="rgba(0,20,100,0.35)"/>
+  <text x="760" y="352" font-family="Tahoma,sans-serif" font-size="9" fill="rgba(255,255,255,0.90)" text-anchor="middle">&#128266; 12:00</text>
+</svg>

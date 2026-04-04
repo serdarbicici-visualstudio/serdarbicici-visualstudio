@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 42" width="800" height="42">
+  <defs>
+    <linearGradient id="tb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2060d8"/>
+      <stop offset="100%" stop-color="#0a3a9a"/>
+    </linearGradient>
+    <linearGradient id="sb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#5a9ae0"/>
+      <stop offset="100%" stop-color="#2e6abf"/>
+    </linearGradient>
+    <!-- Mini sky strip -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#64b5f6"/>
+      <stop offset="100%" stop-color="#90caf9"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky strip -->
+  <rect width="800" height="14" fill="url(#sky)"/>
+  <!-- Tiny cloud puffs -->
+  <ellipse cx="120" cy="6" rx="28" ry="8"  fill="white" opacity="0.80"/>
+  <ellipse cx="136" cy="3" rx="20" ry="8"  fill="white" opacity="0.80"/>
+  <ellipse cx="108" cy="5" rx="16" ry="6"  fill="white" opacity="0.80"/>
+  <ellipse cx="400" cy="7" rx="22" ry="7"  fill="white" opacity="0.70"/>
+  <ellipse cx="415" cy="3" rx="17" ry="7"  fill="white" opacity="0.70"/>
+  <ellipse cx="650" cy="5" rx="18" ry="6"  fill="white" opacity="0.60"/>
+  <ellipse cx="663" cy="2" rx="14" ry="6"  fill="white" opacity="0.60"/>
+  <!-- Tiny grass hill -->
+  <ellipse cx="400" cy="28" rx="600" ry="20" fill="#66bb6a" opacity="0.55"/>
+  <!-- Taskbar -->
+  <rect x="0" y="22" width="800" height="20" fill="url(#tb)"/>
+  <rect x="0" y="22" width="800" height="4"  fill="rgba(255,255,255,0.20)"/>
+  <!-- Start button -->
+  <rect x="2" y="24" width="68" height="14" rx="7" fill="url(#sb)"/>
+  <rect x="2" y="24" width="68" height="7"  rx="7" fill="rgba(255,255,255,0.28)"/>
+  <text x="36" y="35" font-family="Tahoma,Verdana,sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">&#8862; start</text>
+  <line x1="74"  y1="23" x2="74"  y2="40" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <!-- Task button -->
+  <rect x="77" y="24" width="175" height="14" rx="2" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.28)" stroke-width="0.5"/>
+  <text x="164" y="35" font-family="Tahoma,sans-serif" font-size="7" fill="white" text-anchor="middle">README.md &#8212; GitHub Profile</text>
+  <line x1="720" y1="23" x2="720" y2="40" stroke="rgba(255,255,255,0.20)" stroke-width="1"/>
+  <!-- System tray -->
+  <rect x="722" y="24" width="76" height="14" fill="rgba(0,20,100,0.35)"/>
+  <text x="760" y="35" font-family="Tahoma,sans-serif" font-size="8" fill="rgba(255,255,255,0.90)" text-anchor="middle">&#128266; 12:00</text>
+</svg>
